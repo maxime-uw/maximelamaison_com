@@ -1,0 +1,259 @@
+@font-face {font-family: 'MuseoSlab-500';src: url('webfonts/24FFA8_0_0.eot');src: url('webfonts/24FFA8_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/24FFA8_0_0.woff') format('woff'),url('webfonts/24FFA8_0_0.ttf') format('truetype');}
+
+.docs-nav{
+  font-weight: bold;
+}
+
+.green-font{
+  color: #A0BE2C;
+}
+
+.footer {
+  padding: 30px 0;
+  border-top: 1px solid #A0BE2C;
+  background-color: #f5f5f5;
+  margin-top: 30px;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+
+.social img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.footer-links {
+  margin: 5px 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+/* Social proof buttons from GitHub & Twitter */
+.bs-docs-social {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+/* Quick links on Home */
+.bs-docs-social-buttons {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.bs-docs-social-buttons li {
+  display: inline-block;
+  padding: 5px 8px;
+  line-height: 1;
+  *display: inline;
+  *zoom: 1;
+}
+
+.icon{
+  -webkit-transition: opacity 0.7s linear;
+  -moz-transition: opacity 0.7s linear;
+  -o-transition: opacity 0.7s linear;
+  opacity: 0.5;
+}
+
+.icon:hover{
+  -webkit-transition: opacity 0.7s linear;
+  -moz-transition: opacity 0.7s linear;
+  -o-transition: opacity 0.7s linear;
+  opacity: 1.5;
+}
+
+.jumbotron{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.my-container{
+  margin: auto;
+}
+
+.titles{
+  font-weight: 300;
+  color: #A0BE2C;
+}
+
+.inText{
+  font-weight: bold;
+}
+
+.inSide{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.lined{
+  padding-left: 15%;
+}
+
+.or-contact{
+  text-align: center;
+}
+
+.headerDivider1 {
+border-left:1px solid #38546d;height:80px;position:absolute;right:250px;top:10px;
+}
+
+.headerDivider2 {
+border-left:1px solid #16222c;height:80px;position:absolute;right:249px;top:10px;
+}
+
+.contact-social a img {
+  height: 3em;
+  width: 3em;
+  top: 7px;
+  -webkit-transition-property: top;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-property: top;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-timing-function: ease-in-out;
+  transition-property: top;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.contact-social a:hover img{
+	top: 0px;
+}
+
+::selection {
+  background: #A0BE2C;
+  color: white;
+  text-shadow: 1px 1px 1px #6b8018;
+}
+
+.btn-contact {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 14px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 20px;
+  height: 45px;
+  line-height: 20px;
+  *line-height: 20px;
+  color: #555;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #A0BE2C;
+  *background-color: #819926;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#A0BE2C), to(#819926));
+  background-image: -webkit-linear-gradient(top, #A0BE2C, #819926);
+  background-image: -o-linear-gradient(top, #A0BE2C, #819926);
+  background-image: linear-gradient(to bottom, #A0BE2C, #819926);
+  background-image: -moz-linear-gradient(top, #A0BE2C, #819926);
+  background-repeat: repeat-x;
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: #819926 #819926 #bfbfbf;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-contact:hover,
+.btn-contact:active,
+.btn-contact.active,
+.btn-contact.disabled,
+.btn-contact[disabled] {
+  color: #333333;
+  background-color: #819926;
+  *background-color: #d9d9d9;
+}
+
+.btn-contact:active,
+.btn-contact.active {
+  background-color: #cccccc \9;
+}
+
+.btn-contact:first-child {
+  *margin-left: 0;
+}
+
+.btn-contact:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #819926;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.btn-contact:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn-contact.active,
+.btn-contact:active {
+  background-color: #819926;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-contact.disabled,
+.btn-contact[disabled] {
+  cursor: default;
+  background-color: #819926;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-contact {
+  border-color: #c5c5c5;
+  border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+
+#response{display: none;}
+
+.centered{
+  text-align: center;
+}
+
+.bottom{
+  margin: 30px 0px;
+}
+
+.sep-skills{
+  border-color: #333;
+  border-top: 2px solid; 
+  width: 50%;
+}
