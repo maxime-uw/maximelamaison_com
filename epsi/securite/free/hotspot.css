@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #646464;
+}
+a:link, a:visited {
+    color: #646464;
+}
+a:hover {
+    color: #DD0000;
+}
+.bold {
+    font-weight: bold;
+}
+.redbold {
+    color: #DD0000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.red {
+    color: #DD0000;
+}
+.align-left {
+    text-align: left;
+}
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+.clearer {
+    clear: both;
+}
+body {
+    color: #666666;
+    font-family: Arial,Geneva,sans-serif;
+    font-size: 12px;
+}
+h1 {
+    color: #666666;
+    font-size: 21px;
+    padding: 10px 0 0;
+}
+h2 {
+    color: #666666;
+    font-size: 14px;
+    padding: 20px 0 10px;
+}
+p {
+    margin: 15px 10px;
+}
+#header {
+    background: url("../im/bg1.gif") repeat-x scroll left bottom transparent;
+    border-bottom: 1px solid #999999;
+    vertical-align: bottom;
+}
+#header_c {
+    background: url("../im/bg1.gif") repeat-x scroll 0 0 transparent;
+    height: 112px;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+#bod {
+    background: url("../im/bg3.gif") repeat-x scroll 0 0 transparent;
+    height: 800px;
+}
+#bod_c {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+#block {
+    margin: auto;
+    width: 400px;
+}
+#block_2 {
+    background: url("../im/bgg.png") repeat-x scroll left bottom transparent;
+    border: 1px solid #E6E6E6;
+    padding: 20px;
+}
+.label {
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+    width: 100px;
+}
+.label_r {
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding-left: 15px;
+    text-align: left;
+    width: 250px;
+}
+.input_r {
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    width: 200px;
+}
+.input_b {
+    display: block;
+    float: left;
+    margin-left: 175px;
+    padding: 5px;
+    width: 100px;
+}
+.button {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 200px;
+}
+.msg {
+    clear: both;
+    color: #CC0000;
+    font-weight: bold;
+}
+#content .lists ul li.img-modif-info {
+    background-image: url("http://www.free.fr/im/components/mon-compte/list_modif_info.png");
+}

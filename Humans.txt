@@ -11,7 +11,7 @@
 	lafermeduweb.com pour le tuto sur les jeux HTML5/JS
 
 # SITE
-	Last Update: 2013/03/20
+	Last Update: 2013/04/20
 	Standards: HTML5, CSS3
 	Components: JQuery, Twitter Bootstrap, Modernizr
-	Software: Coda 2 & Aptana Studio 3
+	Software: Sublime Text 2, Coda 2 & Aptana Studio 3

@@ -10,6 +10,8 @@
      <meta name="keywords" content="Maxime, Lamaison, maxime, lamaison, MAXIME, LAMAISON, informatique, webdesign, web, CV, developpeur, epsi, ingénieur, bordeaux, computing, developer">
      <meta property="fb:admins" content="1428674799" />
 
+     <link rel="canonical" href="http://www.maximelamaison.com/home"/>
+
 
     <!-- Le styles -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -26,7 +28,7 @@
 
   <body data-spy="scroll" data-target=".subnav" data-offset="50" itemscope itemtype="http://data-vocabulary.org/Person">
 
-  <div class="my-color">
+  <div>
 
   <!-- Navbar ================================================== -->
   <div class="navbar navbar-inverse navbar-fixed-top">
@@ -64,7 +66,7 @@
             <h3><span class="titles">cool</span> & trustful</h3>
             <hr />
             <div class="inSide">
-              <p>My name is <span class="inText" itemprop="name">Maxime LAMAISON</span>, 23 years old <span itemprop="nationnality"> french</span> student in Bordeaux (France).</p>
+              <p>My name is <span class="inText" itemprop="name">Maxime LAMAISON</span>, 24 years old <span itemprop="nationnality"> french</span> student in Bordeaux (France).</p>
               <p>I'm passionned by <span class="inText">Computing</span>, but I'm also a music and movie junkie, sport lover & a lifestyle explorer.</p>
             </div>
           </div>
@@ -87,8 +89,8 @@
       </div>
     </div>
     </div>
-    
-    <div class="my-color2">
+    <hr />
+    <div class="my-bar">
       <div class="container my-container">
         <div class="row-fluid">
           <div class="span12">
@@ -137,12 +139,6 @@
                   <address>
                     <a itemprop="email" href="mailto:contact@maximelamaison.com">contact(at)maximelamaison.com</a>
                   </address>
-                  <div>
-                    <a class="contact-social" href="http://www.facebook.com/max.lamaison" target="_blank" ><img src="assets/img/Facebook-contact.png"></a>
-                    <a class="contact-social" href="http://github.com/MaaAx" target="_blank" ><img src="assets/img/Github-contact.png"></a>
-                    <a class="contact-social" href="http://twitter.com/lemaaax" target="_blank"><img src="assets/img/Twitter-contact.png"></a>
-                    <a class="contact-social" href="http://www.linkedin.com/in/maximelamaison" target="_blank"><img src="assets/img/LinkedIn-contact.png"></a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -172,6 +168,7 @@
           <a class="icon" href="http://twitter.com/lemaaax" target="_blank"><img src="assets/img/Twitter.png"></a>
           <a class="icon" href="http://www.linkedin.com/in/maximelamaison" target="_blank"><img src="assets/img/LinkedIn.png"></a>
           <a class="icon" href="http://open.spotify.com/user/maksym_bdx" target="_blank"><img src="assets/img/spotify.png"></a>
+          <a class="icon" href="http://www.vizify.com/maxime-lamaison" target="_blank"><img src="assets/img/vizify.png"></a>
         </div>
         <p>Designed and built with all the love in the world by <span class="green-font">Maxime Lamaison</span>.</p>
         <hr />
