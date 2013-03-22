@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title>Maxime Lamaison</title>
+    <title>Maxime Lamaison | Home</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;">
      <meta name="robots" content="all">
-     <meta name="robots" content="all">
-     <meta name="keywords" content="Maxime, Lamaison, maxime, lamaison, MAXIME, LAMAISON, informatique, webdesign, web, CV, developpeur, epsi, ingénieur, bordeaux, computing, developper">
      <meta name="description" content="Maxime's personal website - Student, Webdesigner & Webdevelopper">
+     <meta name="robots" content="all">
+     <meta name="keywords" content="Maxime, Lamaison, maxime, lamaison, MAXIME, LAMAISON, informatique, webdesign, web, CV, developpeur, epsi, ingénieur, bordeaux, computing, developer">
+     <meta property="fb:admins" content="1428674799" />
 
 
     <!-- Le styles -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
     <link href="assets/css/my-responsive.css" rel="stylesheet">
+    
+    <!-- Le ModerniZR -->
+    <script src="assets/js/modernizr.js"></script>
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico"> 
@@ -21,7 +25,8 @@
   </head>
 
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
-
+    
+  <div class="my-color2">
 
 
   <!-- Navbar ================================================== -->
@@ -33,7 +38,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand docs-brand" href="index.php">Maxime Lamaison</a>
+          <a class="brand docs-brand" href="home">Maxime Lamaison</a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right docs-nav">
               <li>
@@ -42,9 +47,6 @@
               <li class="active">
                 <a href="skills"><span class="green-font">S</span>kills</a>
               </li>
-              <li>
-                <a href="contact"><span class="green-font">C</span>ontact</a>
-              </li>
             </ul>
           </div>
         </div>
@@ -52,6 +54,7 @@
     </div>
     
     <!-- Content ================================================== -->
+    
     <div class="container">
     <div class="jumbotron"></div>
     <hr />
@@ -97,9 +100,9 @@
                 <p>Again, although I prefer front end development, I think I have to be used to backend languages: I practiced RoR during school projects and it worked perfectly!</p>                
               </div>
               <div class="span3">
-                <h5 class="centered">CMS</h5>
+                <h5 class="centered">Objective-C</h5>
                 <hr class="sep-skills" />
-                <p>Having a platform makes sites easier to manage and apps quicker to build. Even if there are many problems with it, I'm a Wordpress Ninja.</p>
+                <p>Native development is more effective than other, so I'm beginning to train myself to build cool native iPhone apps.</p>
               </div>
             </div>
             <h4 class="centered bottom">& i saw this at school:</span></h4>
@@ -131,42 +134,14 @@
         <hr />
         <div class="row-fluid">
           <div class="span12">
-          <h3 class="centered"><span class="titles">i studied in</span></h3>
-            <div class="span12">
-              <blockquote>
-                <p>2012 (en cours), <a target="_blank" href="http://www.epsi.fr/">EPSI Bordeaux</a></p>
-                <small>Master 2 Ingénierie Informatique</small>
-              </blockquote>
-              <blockquote>
-                <p>2011 - 2012, <a target="_blank" href="http://www.epsi.fr/">EPSI Bordeaux</a></p>
-                <small>Master 1 Ingénierie Informatique</small>
-              </blockquote>              
-              <blockquote>
-                <p>2010 - 2011, <a target="_blank" href="http://www.epsi.fr/">EPSI Bordeaux</a></p>
-                <small>Licence 3 Ingénierie Informatique</small>
-              </blockquote>
-              <blockquote>
-                <p>2010, BTS Informatique de gestion, option développeur d'application</p>
-                <small>Master 2 Ingénierie Informatique</small>
-              </blockquote>  
-              <blockquote>
-                <p>2009 - 2010, <a target="_blank" href="http://www.epsi.fr/">EPSI Bordeaux</a></p>
-                <small>Programme CPI</small>
-              </blockquote>            
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="row-fluid">
-          <div class="span12">
           <h3 class="centered"><span class="titles">i worked for</span></h3>
             <ul class="thumbnails">
               <li class="span3">
                 <div class="thumbnail">
                   <div class="caption">
                     <h3>Kappuccino</h3>
-                    <p>À Bordeaux de Juin à Aout 2012</p>
-                    <p>Développeur Web.</p>
+                    <p>In Bordeaux - June to August 2012</p>
+                    <p>Web Developer.</p>
                   </div>
                 </div>
               </li>
@@ -174,8 +149,8 @@
                 <div class="thumbnail">
                   <div class="caption">
                     <h3>Inseec Invest</h3>
-                    <p>À Bordeaux en Février 2012</p>
-                    <p>Développement du site Web de l’association d’étudiants <a target="_blank" href="http://inseec-invest.com/">Inseec-Invest</a> et formation des utilisateurs du site.</p>
+                    <p>In Bordeaux - Februrary 2012</p>
+                    <p>Development of the student association website: <a target="_blank" href="http://inseec-invest.com/">Inseec-Invest</a>.</p>
                   </div>
                 </div>
               </li>
@@ -183,8 +158,8 @@
                 <div class="thumbnail">
                   <div class="caption">
                     <h3>Montana System</h3>
-                    <p>À Bordeaux de Juin à Septembre 2011</p>
-                    <p>Développement du Site Web de la <a target="_blank" href="http://www.galerieloicsaintmleux.com/">Galerie Loic Saint M’Leux</a> et restauration d’anciens sites web.</p>
+                    <p>In Bordeaux - June to September 2011</p>
+                    <p>Realisation of the art gallery website:  <a target="_blank" href="http://www.galerieloicsaintmleux.com/">Galerie Loic Saint M’Leux</a>.</p>
                   </div>
                 </div>
               </li>
@@ -192,30 +167,15 @@
                 <div class="thumbnail">
                   <div class="caption">
                     <h3>Noeza</h3>
-                    <p>À Biscarrosse de Janvier à Février 2010</p>
-                    <p>Participation au développement du site Web: <a target="_blank" href="http://www.ozarkmedievalfortress.com">Ozark Medieval Fortress</a>.</p>
+                    <p>In Biscarrosse - January to February 2010</p>
+                    <p>Participation in the website development of: <a target="_blank" href="http://www.ozarkmedievalfortress.com">Ozark Medieval Fortress</a>.</p>
                   </div>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-
-      </div>
-      <hr />
-    </div>
-    
-    <!-- Social ================================================== -->
-    <div class="bs-docs-social">
-      <div class="container">
-        <ul class="bs-docs-social-buttons">
-          <li class="follow-btn">
-            <a href="https://twitter.com/leMaaAx" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @leMaaAx</a>
-          </li>
-          <li class="tweet-btn">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.maximelamaison.com" data-count="horizontal" data-via="leMaaAx" data-related="re-creative developer">Tweet</a>
-          </li>
-        </ul>
+        </div>
       </div>
     </div>
     
@@ -223,12 +183,15 @@
     <footer class="footer">
       <div class="container">
         <div class="social pull-right">
-          <a class="icon" href="https://www.facebook.com/max.lamaison" target="_blank" ><img src="assets/img/Facebook.png"></a>
-          <a class="icon" href="https://github.com/MaaAx" target="_blank" ><img src="assets/img/Github.png"></a>
-          <a class="icon" href="https://twitter.com/leMaaAx" target="_blank"><img src="assets/img/Twitter.png"></a>
+          <a class="icon" href="http://www.facebook.com/max.lamaison" target="_blank" ><img src="assets/img/Facebook.png"></a>
+          <a class="icon" href="http://github.com/MaaAx" target="_blank" ><img src="assets/img/Github.png"></a>
+          <a class="icon" href="http://twitter.com/lemaaax" target="_blank"><img src="assets/img/Twitter.png"></a>
           <a class="icon" href="http://www.linkedin.com/in/maximelamaison" target="_blank"><img src="assets/img/LinkedIn.png"></a>
+          <a class="icon" href="http://open.spotify.com/user/maksym_bdx" target="_blank"><img src="assets/img/spotify.png"></a>
         </div>
         <p>Designed and built with all the love in the world by <span class="green-font">Maxime Lamaison</span>.</p>
+      <hr />
+      <div class="pull-right"><a href="http://maximelamaison.com/Humans.txt" target="_blank" ><img class="humans" src="assets/img/humanstxt.png"></a></div>
       </div>
     </footer>
     
@@ -237,6 +200,16 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/google-code-prettify/prettify.js"></script>
     <script src="assets/js/bootstrap.js"></script>
-
+        <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33902230-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </body>
 </html>

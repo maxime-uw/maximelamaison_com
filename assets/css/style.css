@@ -162,7 +162,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #333333;
-  background-color: whitesmoke;
+  background-color: gainsboro;
 }
 
 a {
@@ -173,7 +173,7 @@ a {
 a:hover {
   color: #6b8018;
   text-shadow: 1px 1px 1px white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .img-rounded {
@@ -747,6 +747,7 @@ hr {
   border-bottom: 1px solid #ffffff;
   margin-bottom: 20px;
   margin-top: 20px;
+  background: whitesmoke;
 }
 
 abbr[title] {
