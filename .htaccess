@@ -1,3 +1,0 @@
-AddType x-mapp-php5. Php. Shtml. Html. Htm. Js. Css. Txt
-RewriteEngine On
-RewriteRule	^home	/index.php	[L]	
