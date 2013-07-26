@@ -1,0 +1,120 @@
+.colorise {
+  color: #0a2163;
+}
+
+.bluehr {
+  margin: 20px 80px;
+  border: 0;
+  border-top: 1px solid #0a2163;
+  border-bottom: 1px solid #ffffff;
+}
+
+.hello {
+  font-size: 70px;
+  line-height: 70px;
+  min-height: 70px;
+  margin-left: 10%;
+}
+
+.backgrounded{
+  background: #0a2163;
+  color: whitesmoke;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.big{
+  padding: 7%;
+}
+
+.semi-big{
+  padding: 7% 0;
+}
+
+.row-fluid .span3 .big:first-child {
+  padding-left: 3%;
+}
+
+.leftened {
+  margin-left: 40%;
+}
+
+.leftened2 {
+  margin-left: 20%;
+}
+
+.leftened3 {
+  margin-left: 30%;
+}
+
+.blued{
+  color: whitesmoke;
+  background: url(../img/main-top-blue.png) repeat-x top;
+  background-color: #0a2163;
+  padding-top: 4px;
+}
+
+.reg{
+  color: #0a2163;
+  background: url(../img/main-top-smoke.png) repeat-x top;
+  padding-top: 4px;
+}
+
+.contour {
+  width: 100px;
+  height: 100px;
+  border: 5px solid gainsboro;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+
+.contour-coffee{
+  background: url(../img/cup.png) no-repeat center;
+  background-size:60px 60px;
+  background-color: #fff;
+}
+
+.contour-sporty{
+  background: url(../img/surf.png) no-repeat center;
+  background-size:60px 60px;
+  background-color: #fff;
+}
+
+.contour-music{
+  background: url(../img/music.png) no-repeat center;
+  background-size:60px 60px;
+  background-color: #fff;
+}
+
+.contour-code{
+  background: url(../img/code.png) no-repeat center;
+  background-size:60px 60px;
+  background-color: #fff;
+}
+
+p.contour {
+  vertical-align: middle;
+}
+
+.head-title {
+  font-size: 30px;
+  margin: 40px 0;
+}
+
+.progress  .bar-party {
+  background: green;
+}
+
+.progress .bar-work {
+  background: yellow;
+}
+
+.progress .bar-friends {
+  background: black;
+}
+
+.reg .span4, .reg .row-fluid .span4:first-child{
+  margin: 20px 10px;
+  padding: 10px 0;
+  border: 2px solid gainsboro;
+}
